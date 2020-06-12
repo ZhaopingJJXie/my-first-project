@@ -8,7 +8,7 @@ getwd()
 
 #set path to the locatin for raw data files in the dslabs and list files 
 path <- system.file("extdata", package = "dslabs")
-
+list.files(path)
 
 #generate a full path to a file
 filename <- "murders.csv"
